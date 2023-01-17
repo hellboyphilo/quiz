@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#317773"
+    android:background="#9F47C5"
     tools:context=".category">
 
     <TextView
@@ -12,10 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_80sdp"
-        android:fontFamily="@font/junegull"
+        android:fontFamily="@font/warth"
         android:gravity="center"
         android:text="Categories"
-        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="@dimen/_50sdp"/>
 
     <LinearLayout
