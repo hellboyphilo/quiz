@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quizzomania</string>
+    <string name="welcome">Welcome To QuizLet</string>
+    <string name="next">Next</string>
+    <string name="exit">Exit</string>
+    <string name="Completed">You have Successfully Completed the Quiz</string>
+    <string name="share_your_score">Share Your Score</string>
+</resources>

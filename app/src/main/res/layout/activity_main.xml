@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C23D5"
+    tools:context=".MainActivity"
+    android:gravity="center">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bulb"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:background="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FBA846"
+            android:text="Quizzomania"
+            android:gravity="center"
+            android:fontFamily="@font/warth"
+            android:textSize="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_below="@id/bulb" />
+
+</RelativeLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#317773"
+    tools:context=".category">
+
+    <TextView
+        android:id="@+id/categoriestxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:fontFamily="@font/junegull"
+        android:gravity="center"
+        android:text="Categories"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_50sdp"/>
+
+    <LinearLayout
+        android:id="@+id/optionrow1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_below="@+id/categoriestxt"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:elevation="50dp"
+            android:onClick="categoryCoding"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="@dimen/_30sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="@dimen/_28sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/coding" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/junegull"
+                    android:text="Coding"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:elevation="@dimen/_100sdp"
+            android:onClick="categoryGK"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_30sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="@dimen/_28sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/gk" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/junegull"
+                    android:text="General Knowledge"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_20sdp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_below="@+id/optionrow1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:elevation="@dimen/_100sdp"
+            android:onClick="categorySports"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_30sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="@dimen/_28sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/sports" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/junegull"
+                    android:text="Sports"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:elevation="@dimen/_100sdp"
+            android:onClick="categoryMovies"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_30sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="@dimen/_28sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/movies" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/junegull"
+                    android:text="Movies"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</RelativeLayout>

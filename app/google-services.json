@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "196075740158",
+    "firebase_url": "https://quizzomania-4a40f-default-rtdb.firebaseio.com",
+    "project_id": "quizzomania-4a40f",
+    "storage_bucket": "quizzomania-4a40f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196075740158:android:27c238a331bbc59a99beaf",
+        "android_client_info": {
+          "package_name": "com.example.quizzomania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196075740158-q0toqirogr79e5ue48u3tsg5gnnhb4jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizzomania",
+            "certificate_hash": "63f880a38a55c20b21fb7911a945b3d67d50b026"
+          }
+        },
+        {
+          "client_id": "196075740158-7df0audj05nktr4b4kr3n7qqgd00n4dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWVZNFd7E7udpeKRGWC-UCOxDQSGM7mho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196075740158-7df0audj05nktr4b4kr3n7qqgd00n4dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
